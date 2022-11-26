@@ -1,0 +1,12 @@
+.place__text-container {
+  max-width: 100%;
+  grid-area: place__text-container;
+}
+.place__text-container:last-child {
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .place__text-container {
+    padding: 0 16px 0;
+  }
+}

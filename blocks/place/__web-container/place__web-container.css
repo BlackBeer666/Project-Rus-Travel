@@ -1,0 +1,14 @@
+.place__web-container {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-end;
+  grid-area: place__web-container;
+}
+
+@media screen and (max-width: 767px) {
+  .place__web-container {
+    padding: 0;
+    padding-left: 16px;
+    box-sizing: border-box;
+  } 
+}
