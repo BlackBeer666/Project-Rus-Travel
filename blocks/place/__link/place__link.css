@@ -1,17 +1,13 @@
 .place__link {
-  font-style: normal;
+  max-width: 456px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
-  text-underline-position: under;
-  margin-top: 8px;
-  color: #fff;
-  grid-area: place__link;
+  text-decoration: underline;
+  text-underline-position: under; 
+  color: white;
 }
 
-@media screen and (max-width: 1023px) {
-  .place__link {
-    margin-bottom: 6px;
-  }
+.place__link:hover {
+  opacity: 80%;
 }

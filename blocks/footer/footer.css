@@ -1,8 +1,6 @@
 .footer {
   padding: 92px 48px 24px;
   box-sizing: content-box;
-  display: flex;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 1023px) {
