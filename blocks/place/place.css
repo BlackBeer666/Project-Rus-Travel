@@ -23,7 +23,7 @@
   .place {
     grid-template-columns: 340px 352px;
     gap: 45px 28px;
-    padding: 73px 0 0;
+    padding-top: 73px;
   }
 }
 
@@ -36,6 +36,6 @@
     'place__web-container'
     'place__image'
     'place__text-container';
-    padding: 50px 0 0;
+    padding-top: 50px;
   }
 }

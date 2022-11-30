@@ -5,7 +5,7 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin: 5px 0 0;  /* по макету 6px но перфект пиксель говорит обратное */
+  margin: 6px 0 0;
 }
 
 @media screen and (max-width: 1023px) {
